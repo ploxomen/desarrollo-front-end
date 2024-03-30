@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2 - 2 de 2</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form>
+        <div>
+            <label for="txt-nombre">Nombre</label>
+            <input type="text" id="txt-nombre" name="nombre-personal" value="Jean Pier" disabled>
+        </div>
+        <div>
+            <label>
+                Apellidos
+                <input type="text" minlength="2" maxlength="5" placeholder="Ej: Carrasco" required>
+            </label>
+        </div>
+        <div>
+            <label>Contraseña</label>
+            <input type="password" placeholder="Escribe tu contraseña aqui">
+        </div>
+        <div>
+            <label>Fecha</label>
+            <input type="date" value="2024-03-16">
+        </div>
+        <div>
+            <label>Hora</label>
+            <input type="time" value="22:00">
+        </div>
+        <div>
+            <label>Fecha y hora</label>
+            <input type="datetime-local" value="2024-03-16T22:00">
+        </div>
+        <div>
+            <span>Utiles</span>
+            <ul>
+                <li>
+                    <input type="checkbox" checked>
+                    <label>Borrador</label>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <label>Tajador</label>
+                </li>
+                <li>
+                    <input type="checkbox">
+                    <label>Cuaderno</label>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <span>Dia para jugar</span>
+            <ul>
+                <li>
+                    <input type="radio" name="dias-jugar" checked>
+                    <label>Sabado</label>
+                </li>
+                <li>
+                    <input type="radio" name="dias-jugar" checked>
+                    <label>Domingo</label>
+                </li>
+                <li>
+                    <input type="radio" name="dias-jugar" checked>
+                    <label>Lunes</label>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <label>Color</label>
+            <input type="color">
+        </div>
+        <div>
+            <label>Archivo</label>
+            <input type="file" accept=".pdf" multiple>
+        </div>
+        <div>
+            <label>Rango</label>
+            <input type="range" min="0" max="100" value="90">
+        </div>
+        <div>
+            <label>Numero</label>
+            <input type="number" min="0" max="100" step="0.01">
+        </div>
+        <div>
+            <label>Correo</label>
+            <input type="email">
+        </div>
+        <div>
+            <label>Telefono</label>
+            <input type="tel">
+        </div>
+        <div>
+            <label>Url</label>
+            <input type="url">
+        </div>
+        <div>
+            <label>Buscador</label>
+            <input type="search">
+        </div>
+        <div>
+            <label for="">Selector</label>
+            <select>
+                <option value="">Uno</option>
+                <option value="">Dos</option>
+                <option value="">Tres</option>
+                <option value="">Cuatro</option>
+            </select>
+        </div>
+        <!-- <input type="submit" value="Enviar"> -->
+        <!-- <input type="reset" value="Limpar"> -->
+        <button type="submit">Enviar</button>
+        <button type="reset">Enviar</button>
+    </form>
+</body>
+</html>
